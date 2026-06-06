@@ -1,0 +1,82 @@
+   .hero{
+    padding:40px 20px;
+    text-align: center;
+   }
+   .title {
+     font-size: 32px;
+     margin-bottom: 20px;
+   }
+   .paragraph {
+     font-family: Arial;
+     color: black;
+     box-shadow: 0.7;
+     margin: 2px;
+   }
+   .body {
+     border: 2px Solid black;
+     padding: 8px 16px;
+     text-align: justify;
+     background-color: lightblue;
+   }
+   img {
+     border-radius:10px;
+     margin-bottom: 15px;
+     margin-top: 50pxpx;
+     margin-right:0;
+     margin left: 34px;
+     padding-bottom: 70px;
+     object-fit: cover;
+     border=2px solid #333;
+   }
+   .btn {
+     padding: 10px 15px;
+     background-color: lightblue;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.1s;
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+   }
+   h3 {
+     font-family: Arial;
+     font-size: 24;
+     text-align: justify;
+     margin-left: 16px;
+     
+   }
+   .pupil {
+     margin:20px 0;
+     word-spacing: 2px;
+     line-height: 35px;
+     text-align: justify;
+     font-size: 22px;
+     padding: 0 20px;
+   }
+   .dis {
+     word-spacing: 2px;
+   }
+   @media screen and (max-width:600px){
+     img {
+       width: 250px;
+       margin-left:8px ;
+       margin-right: 8px;
+     }
+   }
+   @media screen and (max-width:900px) {
+     img {
+       width:750px ;
+     }
+   }
+   .rob {
+     margin-left: 16px;
+   }
+   .ul {
+     line-height:28px;
+   }
+   footer {
+     text-align: center;
+   }
